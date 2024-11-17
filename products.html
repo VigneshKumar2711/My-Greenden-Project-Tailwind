@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/Logo.jpeg">
+    <title>GREENDEN</title>
+    <!--Tailwind CSS CDN Link-->
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+</head>
+<body>
+
+    <!--Responsive Navbar-->
+    <nav class="bg-green-400 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10 ">
+        <h1 class="text-2xl"><span class="text-red-400">GREENDEN</span></h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li>
+                    <a class="hover:underline hover:text-black" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black" href="products.html">Products</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+                </li>
+            </ul>
+    </nav>
+<div class="bg-green-400 p-4">
+    <h1 class="font-bold text-center text-3xl text-white bold">Our Products</h1>
+    <div class="w-full flex justify-center">
+        <input id="inpSearch" onkeyup="searchData()" class="w-5/6 p-3 m-2 outline-none md:w-3/4" type="text"
+            placeholder="Search For a Product">
+    </div>
+    <div id="prodId" class="p-4 text-center grid grid-cols-2  gap-4 md:grid-cols-4 text-white md:gap-2">
+        <div>
+            <img src="./Images/bestseller_1.png" class="inline hover:shadow-xl  transform hover:-translate-y-2" alt="">
+            <h1>Rose Plant</h1>
+            <p>₹80</p>
+        </div>
+        <div>
+            <img src="./Images/bestseller_2.png" class="inline hover:shadow-xl transform hover:-translate-y-2"alt="">
+            <h1> Snake Plant</h1>
+            <p>₹50</p>
+        </div>
+        <div>
+            <img src="./Images/bestseller_3.png" class="inline hover:shadow-xl  transform hover:-translate-y-2" alt="">
+            <h1>Spider Plant</h1>
+            <p>₹60</p>
+        </div>
+        <div>
+            <img src="./Images/bestseller_4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Sunflower Plant</h1>
+            <p>₹110</p>
+        </div>
+        <div>
+            <img src="./Images/bestseller_5.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Hibiscus Plant</h1>
+            <p>₹90</p>
+        </div>
+        <div>
+                <img src="./Images/bestseller_6.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Cactus Plant</h1>
+                <p>₹40</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_7.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Dandelion Plant</h1>
+                <p>₹50</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_8.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Orchid Plant</h1>
+                <p>₹150</p>
+            </div>
+                <div>
+                    <img src="./Images/bestseller_9.png"  class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                    <h1>Daisy Plant</h1>
+                    <p>₹200</p>
+                </div>
+                <div>
+                    <img src="./Images/bestseller_10.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                    <h1>Thulasi Plant</h1>
+                    <p>₹100</p>
+                </div>
+                <div>
+                    <img src="./Images/bestseller_11.png"  class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                    <h1>Beetal Plant</h1>
+                    <p>₹70</p>
+                </div>
+                <div>
+                    <img src="./Images/bestseller_12.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                    <h1>Pineapple Plant</h1>
+                    <p>₹220</p>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<div class="bg-blue-400">
+    <div class="p-2">
+        <h1 class="text-black text-4xl font-bold pt-2 pl-3">GREENDEN</h1>
+        <p class="pt-2 pl-3">Greenden is your go-to platform for eco-friendly products, offering quality, convenience, and sustainability in every purchase.</p>
+        <p class="pt-2 pl-3 pb-2">&copy; 2021 Greenden.com</p>
+    </div>
+</div>
+</body>
+</html>
